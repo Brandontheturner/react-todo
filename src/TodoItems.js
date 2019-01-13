@@ -26,7 +26,7 @@ class TodoItems extends Component {
 
     return (
       <ul className="theList">
-        <FlipMove duration={5000} easing="ease-out">
+        <FlipMove duration={5000} easing="ease-in">
           {listItems}
         </FlipMove>
       </ul>
